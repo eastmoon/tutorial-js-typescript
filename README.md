@@ -1,4 +1,4 @@
-# TypeScript
+# JavaScript Library TypeScript
 
 ## 簡介
 
