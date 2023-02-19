@@ -47,6 +47,19 @@ node ./dist/main.js
 1. 透過 typescript 轉換 main.ts 為 main.js 到 dist 目錄下
 2. 透過 node.js 執行 dist 目錄下的 main.js
 
++ 基於環境設定 tsconfig.json
+
+若考量使用 node.js 與 ECMAScript 的功能，則可參考 [tsconfig/bases](https://github.com/tsconfig/bases/) 來設定，或依據 [What is a tsconfig.json](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) 一文調整；但預設的 TypeScript 內容並無需此項設定即可使用。
+
++ 安裝設定模組
+```
+npm install --save-dev @types/node
+```
+
+若範例需要 node.js 模組，除了後續設定 tsconfig 外還需安裝相關 [types 套件](https://www.npmjs.com/~types)
+
++ 執行定義於 package.json 中的腳本 ```npm run osinfo```
+
 ### Babel
 
 + [Babel vs. TypeScript: Choosing the right compiler for your project](https://blog.logrocket.com/babel-vs-typescript/)

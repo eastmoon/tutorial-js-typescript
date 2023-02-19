@@ -7,6 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "helloworld": "babel-node --extensions '.ts' ./src/main.ts",
+    "osinfo": "babel-node --extensions '.ts'  ./src/osinfo.ts",
     "feat:variable": "babel-node --extensions '.ts'  ./src/variable.ts"
   },
   "babel": {

@@ -7,9 +7,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "helloworld": "tsc ./src/main.ts --outDir ./dist && node ./dist/main.js",
+    "osinfo": "tsc ./src/osinfo.ts --outDir ./dist && node ./dist/osinfo.js",
     "feat:variable": "tsc ./src/variable.ts --outDir ./dist && node ./dist/variable.js"
   },
   "devDependencies": {
+    "@types/node": "^18.14.0",
     "typescript": "^4.9.5"
   }
 }
