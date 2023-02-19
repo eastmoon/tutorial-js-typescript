@@ -1,4 +1,4 @@
-# tutorial-js-typescript
+# TypeScript
 
 ## 簡介
 
