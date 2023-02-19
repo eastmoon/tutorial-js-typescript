@@ -37,6 +37,7 @@ npm install --save-dev typescript
 ```
 
 + 執行定義於 package.json 中的腳本 ```npm run helloworld```
+
 此腳本執行兩個步驟
 ```
 tsc ./src/main.ts --outDir ./dist
@@ -91,6 +92,7 @@ npm install --save-dev @babel/preset-typescript @babel/plugin-transform-typescri
 }
 ```
 + 執行定義於 package.json 中的腳本 ```npm run helloworld```
+
 此腳本執行步驟為 ```babel-node --extensions '.ts' ./src/main.ts```
 
 ## 文獻
