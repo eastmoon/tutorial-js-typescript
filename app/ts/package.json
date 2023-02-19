@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "author": "jacky.chen",
+  "license": "MIT",
+  "description": "demo code",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "helloworld": "tsc ./src/main.ts --outDir ./dist && node ./dist/main.js",
+    "feat:variable": "tsc ./src/variable.ts --outDir ./dist && node ./dist/variable.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
