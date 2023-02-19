@@ -95,6 +95,38 @@ npm install --save-dev @babel/preset-typescript @babel/plugin-transform-typescri
 
 此腳本執行步驟為 ```babel-node --extensions '.ts' ./src/main.ts```
 
+## 導覽
+
+### 變數型態
+
+![Cheat Sheet - Type](./docs/img/typescript-cheat-sheet-types.png)
+> from [TypeScript Cheat Sheets : types](https://www.typescriptlang.org/cheatsheets)
+
++ [型態檢查範例](./app/src/variable.ts)
+
+TypeScript 就如期目的，提供一套型態檢查，並確保定義好的型態會受到編譯期保護，而即時編譯提出錯誤訊息，在輸出目錄仍然可以看到轉譯後的 JavaScript 檔案；其中除了基礎型態 ```number```、```string```、```boolean``` 的定義外，還有對於弱型態 ```any```、```unknown``` 與空型態 ```void```、```null```、```undefined```
+
+### 流程控制
+
+![Cheat Sheet - Type](./docs/img/typescript-cheat-sheet-cotrol-flow-analysis.png)
+> from [TypeScript Cheat Sheets : types](https://www.typescriptlang.org/cheatsheets)
+
+
+### 類別
+
+![Cheat Sheet - Type](./docs/img/typescript-cheat-sheet-class.png)
+> from [TypeScript Cheat Sheets : types](https://www.typescriptlang.org/cheatsheets)
+
+
+### 介面
+
+![Cheat Sheet - Type](./docs/img/typescript-cheat-sheet-interface.png)
+> from [TypeScript Cheat Sheets : types](https://www.typescriptlang.org/cheatsheets)
+
+### 裝飾
+
++ [Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
 ## 文獻
 
 + [TypeScript](https://www.typescriptlang.org/)
