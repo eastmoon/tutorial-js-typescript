@@ -175,7 +175,7 @@ goto end
     echo      --help, -h        Show more information with UP Command.
     goto end
 
-@rem ------------------- Command "ts" method -------------------
+@rem ------------------- Command "babel" method -------------------
 
 :cli-babel
     call :exec-docker babel
